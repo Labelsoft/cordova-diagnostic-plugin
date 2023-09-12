@@ -56,14 +56,13 @@ public class Diagnostic_Camera extends CordovaPlugin{
 
     protected static final String cameraPermission = "CAMERA";
     protected static String[] storagePermissions;
-    /*static {
+    static {
         if (android.os.Build.VERSION.SDK_INT >= 33) { // Build.VERSION_CODES.TIRAMISU / Android 13
-            storagePermissions = new String[]{ "READ_MEDIA_IMAGES", "READ_MEDIA_VIDEO" };
+            storagePermissions = new String[]{};
         } else {
-            storagePermissions = new String[]{ "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE" };
+            storagePermissions = new String[]{};
         }
-    }*/
-
+    }
 
     /*************
      * Variables *
